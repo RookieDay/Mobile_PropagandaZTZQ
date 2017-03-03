@@ -1,0 +1,61 @@
+   /*layout*/
+   
+   body {
+       height: 100%;
+   }
+   
+   .zq_layout {
+       width: 100%;
+       max-width: 640px;
+       /*在行业当中的移动端的设计图一般使用的是640px*/
+       min-width: 300px;
+       /*在移动设备当中现在最小的尺寸320px*/
+       position: relative;
+       margin: 0 auto;
+       overflow: hidden;
+   }
+   
+   .zq_layout>.zq_header {
+       width: 100%;
+       display: block;
+       margin-bottom: 1px solid red;
+   }
+   
+   .zq_layout>.zq_header>img {
+       width: 100%;
+       display: block;
+   }
+   /*nav*/
+   
+   .zq_layout>.zq_nav {
+       display: block;
+       width: 100%;
+       padding-top: 10px;
+       border-bottom: 1px solid red;
+   }
+   
+   .zq_layout>.zq_nav li {
+       float: left;
+       width: 33.33%;
+       border-left: 1px solid pink;
+   }
+   
+   .zq_layout>.zq_nav li>a {
+       display: block;
+       width: 100%;
+   }
+   
+   .zq_layout>.zq_nav li>a>img {
+       width: 40px;
+       height: 40px;
+       margin: 0 auto;
+       display: block;
+       margin-top: 5px;
+   }
+   
+   .zq_layout>.zq_nav li>a>p {
+       margin-top: 5px;
+       font-size: 12px;
+       text-align: center;
+       color: red;
+   }
